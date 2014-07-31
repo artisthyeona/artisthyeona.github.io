@@ -1,0 +1,135 @@
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+.header {
+    width: 1000px;
+    margin: 0 auto 100px auto;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image:url("image/symbol.png");
+    float: left;
+    margin: 30px 0px 0px 50px;
+}
+
+.center {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid lightgrey;
+}
+span {
+    width: 100px;
+    height: 0px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    margin: 70px 0px 0px 0px;
+    color: #a1a1a1;
+}
+
+
+.container {
+    width: 558px;
+    margin: 0 auto 200px auto;
+}
+
+
+div .work01 {
+    display: inline-block;
+    width: 150px;
+    height:150px;
+    background-image:url("image/logo_sea.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    float: left;
+}
+div .work02 {
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    background-image:url("image/illust_ten-13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    float: right;
+}
+
+div .work03 {
+    display: inline-block;
+    width: 225px;
+    height:337.75px;
+    background-image:url("image/GUNDAEMAN-11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    float: left;
+}
+
+div .work04 {
+    display: inline-block;
+    width: 325px;
+    height: 337.75px;
+    background-image:url("image/kickit2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    float: right;
+}
+
+div .work05 {
+    display: inline-block;
+    width: 554px;
+    height:250px;
+    background-image:url("image/goosung.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #323232;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.span{
+    font-size: 9pt;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}

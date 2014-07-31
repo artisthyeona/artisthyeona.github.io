@@ -1,0 +1,74 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+.file{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height:100px;
+    background-color: gray;
+    z-index: 1;
+}
+
+.box {
+    width: 32%;
+    height: 200px;
+    float: left;
+
+}
+
+/*.box:nth-child(3n) {*/
+    /*margin-left: 2%;*/
+/*}*/
+
+/*.box:nth-child(2n-1) {*/
+    /*margin-right: 2%;*/
+/*}*/
+
+.boxmom{
+    width: 900px;
+    margin: 100px auto;
+    background-color: violet;
+    padding: 20px;
+}
+
+.art1 {
+    background-color: red;
+}
+
+.art2 {
+    background-color: blue;
+}
+
+.art3 {
+    background-color: yellow;
+}
+
+.art4 {
+    background-color: pink;
+}
+
+.art5 {
+    background-color: burlywood;
+}
+
+.art6 {
+    background-color: green;
+}

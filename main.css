@@ -1,0 +1,112 @@
+body {
+    overflow: scroll;
+}
+
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image:url("image/symbol.png");
+    float: left;
+    margin: 30px 0px 0px 50px;
+}
+
+.center {
+    float: right;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+    z-index: 1;
+}
+
+/*.line {*/
+  /*size: 1px;*/
+  /*color: #a1a1a1;*/
+  /*width: 392px;*/
+  /*float: ;*/
+/*}*/
+
+span {
+    width: 100px;
+    height: 0px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    margin: 70px 0px 0px 0px;
+    color: #a1a1a1;
+}
+
+.face {
+    position: fixed;
+    float: right;
+
+    right: 70px;
+    bottom: 0;
+
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+div.text {
+
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family: 'Wire One', sans-serif;
+    font-weight: 100;
+    font-size: 90pt;
+    /*line-height: 70px;*/
+    display: inline-block;
+    color: #323232;
+    position: fixed;
+    float: left;
+    left: 50px;
+    margin-left: 173px;
+    margin-top: 50px;
+
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #323232;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #b3d4fc;
+}
