@@ -273,6 +273,7 @@ div .work06 {
     height:200px;
     position:relative;
     font-size:1pt;
+    text-transform: uppercase;
 }
 .work_fadein:hover .text {
     position:relative;
