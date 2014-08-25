@@ -45,6 +45,8 @@ body {
     z-index: 3;
     margin-top: 40px;
 }
+
+
 .menu-portfolio {
     width: 25px;
     height: 25px;
@@ -104,6 +106,42 @@ body {
     margin-top: 40px;
 }
 
+.share {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 395px;
+    float: right;
+    background-image: url("./image/icon_URL.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 3;
+    margin-top: 40px;
+}
+
+.share-transition {
+    background-image: url("./image/icon_URL.png");
+    transition: all 0.1s linear;
+}
+.share-transition:hover {
+    background-image: url("./image/icon_URL_push.png");
+    transition: all 0.5s linear;
+}
+
+.share-push {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 395px;
+    float: right;
+    background-image: url("./image/icon_URL_push.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    z-index: 3;
+    margin-top: 40px;
+}
 
 .white_space {
     width: 950px;
@@ -267,20 +305,28 @@ div .work06 {
     transition: all 0.1s linear;
     opacity: 1;
 }
-.text{
+.port_text{
     background:#000; opacity:0;
-    width:300px;
-    height:200px;
+    width:250px;
+    height:150px;
     position:relative;
-    font-size:1pt;
+    font-size:20pt;r
     text-transform: uppercase;
+    /*letter-spacing: 0px;*/
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+    padding-top: 50px;
+    padding-left: 50px;
 }
-.work_fadein:hover .text {
+.work_fadein:hover .port_text {
     position:relative;
     /*transition: all 1s ease-in;*/
     display: block;
     opacity: 0.5;
-    margin-left: -50px;
+    margin-left: 0px;
     margin-top:0px;
 }
 
@@ -344,13 +390,35 @@ div .work06 {
     height: 300px;
     display: block;
     margin: 0 auto;
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 150px;
     background-image: url("./image/profile_title.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.logo_bother{
-    border-top: 1px;
+.hello{
+   width: 750px;
+   display: block;
+   margin: 0 auto;
+    letter-spacing: 0px;
+    font-family: 'Nanum Gothic Coding', serif;
+    font-weight: 100;
+    font-size: 10pt;
+    line-height: 20px;
+    padding-bottom: 100px;
+    /*text-align: center;*/
+}
+
+.work_name{
+    /*width: 750px;*/
+    display: inline-block;
+    margin: 0 auto;
+    letter-spacing: 0px;
+    font-family: 'Nanum Gothic Coding', serif;
+    font-weight: 100;
+    font-size: 20pt;
+    line-height: 20px;
+    padding-bottom: 100px;
+    /*text-align: center;*/
 }
